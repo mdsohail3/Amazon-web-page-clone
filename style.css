@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav {
+  display: flex;
+  background-color: #0f1111;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+#nav input {
+  height: 38px;
+  width: 750px;
+  margin: 0 25px 0 50px;
+  margin-right: 0px;
+  padding-left: 0px;
+}
+
+#text {
+  color: white;
+  padding: 10px;
+}
+#logo {
+  float: left;
+
+  width: 100px;
+  height: 35px;
+  padding: 10px 10px 0 10px;
+}
+#logo:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+#text:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#down {
+  margin-top: 10px;
+  background-color: #232f3e;
+  width: 100%;
+  height: 35px;
+  margin-top: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+#down a:hover {
+  border-radius: 5px;
+  border: 1px solid white;
+  overflow: hidden;
+}
+#down a {
+  display: flex;
+  color: white;
+  padding: 10px;
+  height: 6px;
+  display: flex;
+  display: inline;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+#png {
+  height: 35px;
+  padding-left: 0px;
+  margin: 0%;
+}
+
+#search {
+  background-color: #f6b45d;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-search {
+  position: absolute;
+  left: 1072px;
+}
+button {
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+  padding-right: 0px;
+  position: absolute;
+  left: 320px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.78);
+}
+#products {
+  background-image: url(./81SHLCeR6YL._SX3000_.jpg);
+  /* height: 180vh; */
+  height: 10000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#overlay {
+  display: flex;
+
+  justify-content: space-around;
+  position: absolute;
+  top: 400px;
+  background-color: orange;
+  height: 480px;
+  width: 100%;
+}
+
+#overlay img {
+  height: 300px;
+  width: 270px;
+  margin: 10px;
+}
+#container {
+  height: 360px;
+  width: 280px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: white;
+}
+
+#container h3 {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+#img4 img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  display: inline;
+}
+
+p {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: smaller;
+  font-style: bold;
+}
+
+#insideimgandpre {
+  width: 120px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 5px;
+}
